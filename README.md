@@ -101,7 +101,7 @@ Realice un programa que lea un número enteros y determine si es par o impar.
 
 Este punto es un poco más fácil, pues aquí solo se solicitamos al usuario un número entero anteriormente definido. Después de esto le solicitamos al programa que realice una módulo que retornará el residuo de una división, si el residuo es '0' entonces el número ingresado será par, mientras que si su resultado es '1' entonces el número será par: 
 
-El código se podrá ver de la siguente forma en [taller#1.ipynb](/taller#1.ipynb):
+El código se podrá ver de la siguente forma en [tallerUno.ipynb](/tallerUno.ipynb):
 
 ``` python
 # Punto 3
@@ -112,6 +112,18 @@ if a % 2 == 0 :
 elif a % 2 == 1 : 
     print (str(a) + " es impar")
 ``` 
+
+Y si lo corremos en el terminal podríamos ver algo así:
+
+[![Captura-de-pantalla-2023-03-14-173315.png](https://i.postimg.cc/HkVy3zYX/Captura-de-pantalla-2023-03-14-173315.png)](https://postimg.cc/75rhZgTZ)
+
+Continuamos con el siguiente punto
+
+## Cuarto punto 🔋
+
+Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
+
+
 
 
 
