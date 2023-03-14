@@ -1,4 +1,4 @@
-# Bug.ing-first-workshop
+# Bug.ing first workshop
 
 Bienvenidos a este, nuestro primer taller, el primer taller de Bug.ing 🐞
 
@@ -15,6 +15,8 @@ Nosotros somos un grupo conformado por 3 ingenieros presentados a continuación 
 Durante este taller, realizamos el desarrollo de 9 puntos de programación diferentes que serán expuestos más adelante y un quiz inicial. 😶‍🌫️
 
 Así que sin más que decir, iniciemos con el quiz; que es el primer punto
+
+**Nota:** Los puntos pares estarán en archivos de extensión .py, mientras que los impares estarán en un archivo .ypynb (Notebook de Python)
 
 ## Quices (Primer punto)
 
@@ -87,7 +89,9 @@ if c>a and c>b :
     print (str(c))
 ```
 
-Y de esta manera ya tendríamos el código para el segundo punto
+Y de esta manera ya tendríamos el código para el segundo punto, que si lo corremos se ejecutaría de la siguiente manera:
+
+[![Captura-de-pantalla-2023-03-14-171115.png](https://i.postimg.cc/wBw3pd4P/Captura-de-pantalla-2023-03-14-171115.png)](https://postimg.cc/7CTq3jkM)
 
 Para este punto podemos conseguir el siguente diagrama de flujo:
 
@@ -95,9 +99,19 @@ Para este punto podemos conseguir el siguente diagrama de flujo:
 
 Realice un programa que lea un número enteros y determine si es par o impar.
 
+Este punto es un poco más fácil, pues aquí solo se solicitamos al usuario un número entero anteriormente definido. Después de esto le solicitamos al programa que realice una módulo que retornará el residuo de una división, si el residuo es '0' entonces el número ingresado será par, mientras que si su resultado es '1' entonces el número será par: 
 
+El código se podrá ver de la siguente forma en [taller#1.ipynb](/taller#1.ipynb):
 
-
+``` python
+# Punto 3
+a : int
+a = int (input("Ingrese un número entero"))
+if a % 2 == 0 :
+    print ((str(a)) + " es par")
+elif a % 2 == 1 : 
+    print (str(a) + " es impar")
+``` 
 
 
 
