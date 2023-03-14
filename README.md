@@ -37,7 +37,68 @@ Después de haber completado este punto de manera individual, comenzamos a crear
 
 **Nota:** Durante el taller podrán encontrar 3 diagramas de flujo pertenecientes a 3 de los puntos del taller. Estos fueron definidos con base en el último dígito de nuestra cédula
 
-## Segundo punto 
+## Segundo punto 🧮
 
 Realice un programa que lea tres números reales y determine cuál es el mayor.
+
+Este punto lo podemos encontrar en el documento [punto2.py](/punto2.py) donde:
+
+En este punto le solicita ingresar 3 números reales, esto se logra por medio del "input", despúes de esto, aunque antes de eso definimos los 3 números como reales, que se vería algo así:
+
+``` python
+a : float
+b : float
+c : float
+a =float (input("Ingrese un número real"))
+b =float (input("Ingrese un número real"))
+c =float (input("Ingrese un número real"))
+```
+
+Y después de esto entonces definimos los condicionales que nos ayudarán a ejecutar el programa:
+
+Para esto entonces si el primer número es mayor que el segundo y el tercero entonces se imprimirá el primero. Por el contrario si el segundo número es mayor que el primero y mayor que el tercero entonces se tendría que imprimir el segundo o en caso de que el tercero sea mayor que los 2 anteriores, pues se imprimiría el tercero. De esta manera el programa siempre imprimirá el número mayor. 
+
+Los condicionales tienen que verse da la siguiente forma:
+
+``` python
+if a>b and a>c :
+    print (str(a))
+if b>a and b>c : 
+    print (str(b))
+if c>a and c>b :
+    print (str(c))
+```
+
+Y finalmente el código se puede ver de la siguiente forma:
+
+
+``` python
+a : float
+b : float
+c : float
+a =float (input("Ingrese un número real"))
+b =float (input("Ingrese un número real"))
+c =float (input("Ingrese un número real"))
+if a>b and a>c :
+    print (str(a))
+if b>a and b>c : 
+    print (str(b))
+if c>a and c>b :
+    print (str(c))
+```
+
+Y de esta manera ya tendríamos el código para el segundo punto
+
+Para este punto podemos conseguir el siguente diagrama de flujo:
+
+## Tercer punto 👾
+
+Realice un programa que lea un número enteros y determine si es par o impar.
+
+
+
+
+
+
+
 
