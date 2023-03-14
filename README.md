@@ -43,7 +43,7 @@ Después de haber completado este punto de manera individual, comenzamos a crear
 
 Realice un programa que lea tres números reales y determine cuál es el mayor.
 
-Este punto lo podemos encontrar en el documento [punto2.py](/punto2.py) donde:
+Este punto lo podemos encontrar en el documento [puntoDos.py](/puntoDos.py) donde:
 
 En este punto le solicita ingresar 3 números reales, esto se logra por medio del "input", despúes de esto, aunque antes de eso definimos los 3 números como reales, que se vería algo así:
 
@@ -91,7 +91,7 @@ if c>a and c>b :
 
 Y de esta manera ya tendríamos el código para el segundo punto, que si lo corremos se ejecutaría de la siguiente manera:
 
-[![Captura-de-pantalla-2023-03-14-171115.png](https://i.postimg.cc/wBw3pd4P/Captura-de-pantalla-2023-03-14-171115.png)](https://postimg.cc/7CTq3jkM)
+[![Captura-de-pantalla-2023-03-14-172159.png](https://i.postimg.cc/Qdp6Nj7f/Captura-de-pantalla-2023-03-14-172159.png)](https://postimg.cc/nXhK0b0m)
 
 Para este punto podemos conseguir el siguente diagrama de flujo:
 
